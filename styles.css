@@ -1,0 +1,93 @@
+*,::after, *::before
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+body
+{
+    background-color:rgb(33, 1, 56);
+    color: floralwhite;
+}
+
+.container
+{
+    height: 100vh;
+    width: 70vw;
+    margin: 2rem auto;
+}
+
+.container h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.3rem;
+}
+
+.data-form
+{
+    display: block;
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.data-form input
+{
+    margin: 1rem 0rem;
+    line-height: 3rem;
+    background: none;
+    outline: 0;
+    border: 0;
+    color: white;
+}
+
+.data-form input:active
+{
+    border-bottom: 1px solid white;
+}
+
+.data-form input:focus
+{
+    border-bottom: 1px solid white;
+}
+
+.data-form button
+{
+    margin: 1rem 0rem;
+    background: white;
+    border: 0;
+    outline: 0;
+    height: 3rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: darkslategray;
+}
+
+.contact-list
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+}
+
+.icon
+{
+    color: tomato;
+    cursor: pointer;
+}
